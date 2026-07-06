@@ -1391,6 +1391,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -6200,7 +6202,7 @@ function stripHtmlToText(html) {
       var unitPrices = [];
       for (var j = 0; j < cart.length; j++) {
         var item = cart[j];
-        if (!appliesToAll && ids.indexOf(item.id) === -1) continue;
+        if (!appliesToAll && ids.indexOf(item.productId || item.id) === -1) continue;
         var uPrice = getItemPrice(item);
         var itemQty = parseInt(item.quantity, 10) || 1;
         for (var k = 0; k < itemQty; k++) {
@@ -17562,6 +17564,8 @@ function fixContrast(){
 /* ZAPPY_CUSTOMER_DISCOUNT_PRODUCT_DETAIL_RACE_V1 */
 
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
+
+/* ZAPPY_CART_BUNDLE_DISCOUNT_V1 — productId + fetchQuantityBundles patch */
 
 
 /* ZAPPY_CHECKOUT_BUTTON_CONTRAST_RUNTIME_V1 */
