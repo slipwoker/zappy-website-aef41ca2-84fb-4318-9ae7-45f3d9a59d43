@@ -1,0 +1,151 @@
+# החנות של מרכז קרן אור — Generative Engine Optimization Map
+
+> Keren Sela is a holistic wellness brand blending spirituality, longevity, and natural healing. The brand offers a curated mix of spiritual items, longevity products, medicinal mushrooms, and a self-authored book. The brand carries a deeply personal and authentic tone, rooted in alternative wellness, inner growth, and conscious living. The existing website (kerensela.com) reflects a warm, personal, and spiritually-oriented identity.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+הכניסה שלכם לעולם של ריפוי טבעי, פטריות מרפא ומוצרי רוחניות אונליין. קרן סלע מזמינה אתכם למסע אישי של צמיחה פנימית, אריכות ימים וחיים מודעים. היכנסו עכשיו וגלו אוצרות נדירים.
+
+### אודות קרן
+https://example.com/about
+קרן סלע פותחת את הלב ומשתפת במסע האישי שהוביל ליצירת מותג הריפוי ההוליסטי. גלו את הפילוסופיה, החזון והחיבור העמוק לפטריות מרפא לבריאות, רוחניות וצמיחה מודעת.
+
+### מדריך אוספים
+https://example.com/collections-guide
+המדריך המקיף שיעשה לכם סדר בעולם פטריות המרפא. למדו להתאים את הפטרייה המושלמת לצרכים האישיים שלכם, לצלול לעומק הריפוי הטבעי ולגלות איך לשלב אותן באורח חיים מודע ובריא יותר.
+
+### צור קשר
+https://example.com/contact
+יש לכם שאלה על פטריות מרפא, מוצרי רוחניות אונליין או הספר של קרן סלע? אנחנו כאן כדי להקשיב, לייעץ ולתמוך בכם בדרך לריפוי טבעי וצמיחה אישית. צרו קשר עוד היום והתחילו את השינוי.
+
+### Products
+https://example.com/products
+המוצרים שלנו - החנות של מרכז קרן אור
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - החנות של מרכז קרן אור
+
+### Category
+https://example.com/category/:slug
+מוצרים - החנות של מרכז קרן אור
+
+### תודה שפנית אלינו
+https://example.com/thank-you
+החנות של מרכז קרן אור - תודה שפנית אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+**Total active products: 6**
+
+### טרמלה
+https://example.com/product/trmlh-2wvf1y
+- Price: 280.00 ILS
+- Availability: In stock
+- Description: פטריית טרמלה (Tremella fuciformis) מכונה גם "פטריית היופי" בזכות יכולתה לשמור על לחות העור וגמישותו. עשירה בפוליסכרידים התומכים בבריאות העור, בשמירה על מראה צעיר וברק טבעי. שיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.
+- Image: https://example.com/assets/product-1783262528022-7iihds.webp
+
+### צ'אגה
+https://example.com/product/tsagh-mzgw5w
+- Price: 280.00 ILS
+- Availability: In stock
+- Description: פטריית צ'אגה (Inonotus obliquus) נחשבת ל"מלכת הפטריות" בזכות עושר נוגדי החמצון שבה. תומכת במערכת החיסון, מגינה מפני נזק חמצוני ומסייעת לשמור על חיוניות ובריאות כללית. שיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.
+- Image: https://example.com/assets/product-1783262455732-q94l3.webp
+
+### זנב התרנגול
+https://example.com/product/znb-htrngvl-awdf5g
+- Price: 250.00 ILS
+- Availability: In stock
+- Description: פטריית זנב התרנגול (Turkey Tail – Trametes versicolor) נחשבת לאחת החשובות לחיזוק מערכת החיסון. עשירה בבטא-גלוקנים ורכיבים פעילים התומכים בהגנה טבעית ובאיזון הגוף. שיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.
+- Image: https://example.com/assets/product-1783262335268-c7w63v.webp
+
+### ריישי
+https://example.com/product/ryyshy-3j3tyj
+- Price: 250.00 ILS
+- Availability: In stock
+- Description: פטריית הריישי (Ganoderma lucidum), ידועה ביכולתה לאזן את הגוף והנפש, להפחית סטרס ולתמוך בשינה איכותית. עשירה ברכיבים טבעיים המחזקים את מערכת החיסון, מגנים מפני נזק חמצוני ותורמים לחיוניות ורוגע לאורך זמן. תוסף טבעי לשגרה בריאה, הרמונית ומלאת איזון. שיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.
+- Image: https://example.com/assets/product-1783262157833-t59yex.webp
+
+### רעמת האריה
+https://example.com/product/ramt-haryh-li5ncw
+- Price: 250.00 ILS
+- Availability: In stock
+- Description: פטריית רעמת האריה (Hericium erinaceus) ידועה ביכולתה לתמוך במערכת העצבים, בריכוז ובזיכרון. מעודדת צמיחה עצבית ותורמת לבהירות מחשבתית ולתפקוד קוגניטיבי חד לאורך זמן. שיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.
+- Image: https://example.com/assets/product-1783262263294-xzui4.webp
+
+### קורדיספס
+https://example.com/product/kvrdysps-yj8y9a
+- Price: 250.00 ILS
+- Availability: In stock
+- Description: פטריית הקורדיספס (Cordyceps sinensis) היא אחת הפטריות הנחקרות והמוערכות בעולם בזכות יכולתה לשפר רמות אנרגיה, סיבולת וכוח פיזי. היא מחזקת את מערכת החיסון, תומכת במערכת הנשימה ומסייעת לאיזון הורמונלי עדין. תוסף טבעי ואיכותי לחיים מלאי חיוניות. שיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.
+- Image: https://example.com/assets/product-1783261950138-0ojwzv.webp
+
+---
+
+# Business Context (for LLM understanding)
+
+## About החנות של מרכז קרן אור
+Keren Sela is a holistic wellness brand blending spirituality, longevity, and natural healing. The brand offers a curated mix of spiritual items, longevity products, medicinal mushrooms, and a self-authored book. The brand carries a deeply personal and authentic tone, rooted in alternative wellness, inner growth, and conscious living. The existing website (kerensela.com) reflects a warm, personal, and spiritually-oriented identity.
+
+## Target Audience
+- מחפשי רוחניות
+- חובבי בריאות הוליסטית
+- מטפלים ברפואה אלטרנטיבית
+- מדריכי יוגה ומדיטציה
+- צרכנים ידידותיים לסביבה
+- חובבי בריאות
+- אנשי לונג'ביטי
+- אנשים רוחניים
+
+## Industry
+Holistic Wellness & Spirituality E-commerce
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml

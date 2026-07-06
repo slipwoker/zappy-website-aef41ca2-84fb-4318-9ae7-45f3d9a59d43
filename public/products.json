@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org",
+  "generated_at": "2026-07-06T14:03:33.025Z",
+  "base_url": "https://example.com",
+  "currency": "ILS",
+  "count": 6,
+  "products": [
+    {
+      "id": "2a81eff9-7eee-48b7-8a40-8a40c93f3edb",
+      "slug": "trmlh-2wvf1y",
+      "name": "טרמלה",
+      "name_translations": {},
+      "description": "<p>🌟פטריית היופי והלחות</p><p>🌟תומכת בייצור קולגן</p><p>🌟תומכת באיזון הורמונלי</p><p>🌟מפחיתה דלקת מערכתית</p><p>🌟תומכת בכבד ובמערכת הנשימה</p>",
+      "short_description": "פטריית טרמלה (Tremella fuciformis) מכונה גם \"פטריית היופי\" בזכות יכולתה לשמור על לחות העור וגמישותו. עשירה בפוליסכרידים התומכים בבריאות העור, בשמירה על מראה צעיר וברק טבעי.\n\nשיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 280,
+      "base_price": 280,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783262528022-7iihds.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/trmlh-2wvf1y",
+      "categories": [],
+      "updated_at": "2026-07-05T14:50:08.182Z"
+    },
+    {
+      "id": "357ce6f4-b60a-4903-b5c6-54bbb21c7db1",
+      "slug": "tsagh-mzgw5w",
+      "name": "צ'אגה",
+      "name_translations": {},
+      "description": "<p>🌟חיזוק מערכת החיסון והגנה מפני מחלות ויראליות.</p><p>🌟ניקוי רעלים והגנה על הכבד.</p><p>🌟תמיכה במערכת העיכול ובמיקרוביוטה.</p><p>🌟עידוד ריפוי תאי ושמירה על רמות אנרגיה יציבות.</p><p>&nbsp;🌟הגנה מפני נזקי רדיקלים חופשיים ותמיכה בבריאות העור.</p>",
+      "short_description": "פטריית צ'אגה (Inonotus obliquus) נחשבת ל\"מלכת הפטריות\" בזכות עושר נוגדי החמצון שבה. תומכת במערכת החיסון, מגינה מפני נזק חמצוני ומסייעת לשמור על חיוניות ובריאות כללית.\n\nשיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 280,
+      "base_price": 280,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783262455732-q94l3.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tsagh-mzgw5w",
+      "categories": [],
+      "updated_at": "2026-07-05T14:49:26.402Z"
+    },
+    {
+      "id": "622b1b41-4ab0-40f7-8673-36c734ac2e34",
+      "slug": "znb-htrngvl-awdf5g",
+      "name": "זנב התרנגול",
+      "name_translations": {},
+      "description": "<p>🌟 תמיכה חזקה במערכת החיסון</p><p>🌟 תמיכה כללית בהתחדשות ואיזון</p><p>🌟 בריאות מערכת העיכול</p><p>🌟 נוגדי חמצון להגנה תאית</p>",
+      "short_description": "פטריית זנב התרנגול (Turkey Tail – Trametes versicolor) נחשבת לאחת החשובות לחיזוק מערכת החיסון. עשירה בבטא-גלוקנים ורכיבים פעילים התומכים בהגנה טבעית ובאיזון הגוף.\n\nשיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 250,
+      "base_price": 250,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783262335268-c7w63v.webp",
+        "https://example.com/assets/product-1783262346919-6k2r7o.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/znb-htrngvl-awdf5g",
+      "categories": [],
+      "updated_at": "2026-07-06T12:48:41.784Z"
+    },
+    {
+      "id": "1ceaf235-5780-48a3-ba0b-08711fd0634b",
+      "slug": "ryyshy-3j3tyj",
+      "name": "ריישי",
+      "name_translations": {},
+      "description": "<p>🌟 איזון והרגעה טבעית</p><p>🌟 שיפור איכות השינה</p><p>🌟 הפחתת חרדה ומתח</p><p>🌟 חיוניות ורווחה כללית</p><p>🌟 תמיכה במערכת החיסון</p><p>🌟 פעילות נוגדת חמצון</p><p>🌟 בריאות הלב וכלי הדם</p>",
+      "short_description": "פטריית הריישי (Ganoderma lucidum), ידועה ביכולתה לאזן את הגוף והנפש, להפחית סטרס ולתמוך בשינה איכותית. עשירה ברכיבים טבעיים המחזקים את מערכת החיסון, מגנים מפני נזק חמצוני ותורמים לחיוניות ורוגע לאורך זמן. תוסף טבעי לשגרה בריאה, הרמונית ומלאת איזון.\n\nשיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 250,
+      "base_price": 250,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783262157833-t59yex.webp",
+        "https://example.com/assets/product-1783262166742-24e2l.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/ryyshy-3j3tyj",
+      "categories": [],
+      "updated_at": "2026-07-05T14:48:00.769Z"
+    },
+    {
+      "id": "4e1ff040-f480-4cb7-a529-97915654cc4b",
+      "slug": "ramt-haryh-li5ncw",
+      "name": "רעמת האריה",
+      "name_translations": {},
+      "description": "<p>🌟 זיכרון, ריכוז וחדות מחשבתית</p><p>🌟 תפקוד קוגניטיבי ובריאות המוח</p><p>🌟 הפחתת תסמיני דיכאון וחרדה</p><p>🌟 תמיכה במערכת העיכול</p><p>🌟 איזון רגשי ורווחה כללית</p><p>🌟 אנטי־אייג'ינג עצבי</p>",
+      "short_description": "פטריית רעמת האריה (Hericium erinaceus) ידועה ביכולתה לתמוך במערכת העצבים, בריכוז ובזיכרון. מעודדת צמיחה עצבית ותורמת לבהירות מחשבתית ולתפקוד קוגניטיבי חד לאורך זמן.\n\nשיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 250,
+      "base_price": 250,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783262263294-xzui4.webp",
+        "https://example.com/assets/product-1783262272164-vphvei.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/ramt-haryh-li5ncw",
+      "categories": [],
+      "updated_at": "2026-07-05T14:47:39.706Z"
+    },
+    {
+      "id": "69e53515-99a5-44ff-ad9b-068e9f06d6df",
+      "slug": "kvrdysps-yj8y9a",
+      "name": "קורדיספס",
+      "name_translations": {},
+      "description": "<p>🌟 הגברת אנרגיה וסיבולת גופנית</p><p>🌟 תמיכה בחשק המיני וחיוניות כללית</p><p>🌟 התמודדות עם עייפות ולחץ</p><p>🌟 תמיכה בתפקוד ריאתי ונשימתי</p><p>🌟 איזון מערכת החיסון</p>",
+      "short_description": "פטריית הקורדיספס (Cordyceps sinensis) היא אחת הפטריות הנחקרות והמוערכות בעולם בזכות יכולתה לשפר רמות אנרגיה, סיבולת וכוח פיזי. היא מחזקת את מערכת החיסון, תומכת במערכת הנשימה ומסייעת לאיזון הורמונלי עדין. תוסף טבעי ואיכותי לחיים מלאי חיוניות.\n\nשיטת המיצוי הבלעדית FBE מבטיחה 100% פטריות וריכוז חומרים פעילים גבוה במיוחד.",
+      "sku": null,
+      "brand": null,
+      "price": 250,
+      "base_price": 250,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783261950138-0ojwzv.webp",
+        "https://example.com/assets/product-1783261984055-kaypa.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/kvrdysps-yj8y9a",
+      "categories": [],
+      "updated_at": "2026-07-05T14:46:10.343Z"
+    }
+  ]
+}
