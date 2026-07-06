@@ -1393,6 +1393,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -1515,11 +1517,8 @@ window.onload = function() {
   setTimeout(setupFixedHeaders, 500);
   const getApiBase = function() {
     const explicitBase = (window.ZAPPY_API_BASE || '').replace(/\/$/, '');
-    const path = window.location ? window.location.pathname : '';
-    if (path.indexOf('/preview') !== -1 || path.indexOf('/preview-fullscreen') !== -1) {
-      return window.location.origin;
-    }
-    return explicitBase;
+    if (explicitBase) return explicitBase;
+    return window.location ? window.location.origin : '';
   };
   const buildApiUrl = function(path) {
     if (path.charAt(0) !== '/') {
@@ -8686,11 +8685,8 @@ function getActiveVatRate() {
 // API base helper for additional JS
 function getApiBase() {
   var explicitBase = (window.ZAPPY_API_BASE || '').replace(/\/$/, '');
-  var path = window.location ? window.location.pathname : '';
-  if (path.indexOf('/preview') !== -1 || path.indexOf('/preview-fullscreen') !== -1) {
-    return window.location.origin;
-  }
-  return explicitBase;
+  if (explicitBase) return explicitBase;
+  return window.location ? window.location.origin : '';
 }
 function buildApiUrl(path) {
   if (path.charAt(0) !== '/') {
@@ -16234,6 +16230,18 @@ function fixContrast(){
       return document.getElementById('cart-drawer-total');
     }
 
+    /** Auto discounts already rendered by updateCartDrawerSummary (bundle, etc.). */
+    function readDrawerAutoDiscount() {
+      var discount = 0;
+      var bundleRow = document.querySelector('.cart-drawer-bundle-discount');
+      if (!bundleRow || bundleRow.style.display === 'none') return 0;
+      var bundleEl = document.getElementById('cart-drawer-bundle-discount');
+      if (!bundleEl) return 0;
+      var nums = (bundleEl.textContent || '').match(/[\d,.]+/);
+      if (nums) discount += parseFloat(nums[0].replace(/,/g, '')) || 0;
+      return discount;
+    }
+
     function patchCartTotals() {
       var drawer = document.getElementById('cart-drawer');
       if (!drawer) return;
@@ -16253,7 +16261,9 @@ function fixContrast(){
         }
       });
       if (totalEl) {
-        var nextTotal = formatCartDisplayAmount(total);
+        var autoDiscount = readDrawerAutoDiscount();
+        var displayTotal = Math.max(0, total - autoDiscount);
+        var nextTotal = formatCartDisplayAmount(displayTotal);
         if (totalEl.textContent !== nextTotal) totalEl.textContent = nextTotal;
       }
     }
