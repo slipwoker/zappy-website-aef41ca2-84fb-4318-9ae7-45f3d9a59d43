@@ -1399,6 +1399,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -4259,6 +4261,12 @@ function stripHtmlToText(html) {
     var drawerTotal = getCartDrawerTotalElement();
     var rows = ensureCartDrawerSummaryRows();
     if (!drawerTotal || !rows) return;
+    try {
+      var totalColor = window.getComputedStyle(rows.totalRow || drawerTotal).color;
+      if (totalColor) {
+        rows.subtotalRow.style.setProperty('--zappy-cart-drawer-total-color', totalColor);
+      }
+    } catch (e) {}
 
     if (!cart || !cart.length) {
       rows.subtotalRow.style.display = 'none';
@@ -17580,8 +17588,8 @@ function fixContrast(){
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
 
 /* ZAPPY_CART_BUNDLE_DISCOUNT_V1 — productId + fetchQuantityBundles patch */
-/* ZAPPY_CART_BUNDLE_SUMMARY_COLOR_V2 */
-;(function(){var id='zappy-cart-bundle-summary-color-css';var css='.cart-drawer-footer .zappy-cart-summary-row{display:flex;justify-content:space-between;align-items:center;font-size:.95rem;margin-bottom:8px}.cart-drawer-footer .cart-drawer-subtotal,.cart-drawer-footer .cart-drawer-subtotal span{color:var(--text-color,var(--text,#1f2937))}.cart-drawer-footer .zappy-cart-discount-row{color:var(--primary-color,var(--accent,var(--primary,#059669)));font-weight:500}';var el=document.getElementById(id);if(el){el.textContent=css;return;}var s=document.createElement('style');s.id=id;s.textContent=css;(document.head||document.documentElement).appendChild(s);})();
+/* ZAPPY_CART_BUNDLE_SUMMARY_COLOR_V3 */
+;(function(){var id='zappy-cart-bundle-summary-color-css';var css='.cart-drawer-footer .zappy-cart-summary-row{display:flex;justify-content:space-between;align-items:center;font-size:.95rem;margin-bottom:8px}.cart-drawer-footer .cart-drawer-subtotal,.cart-drawer-footer .cart-drawer-subtotal span{color:var(--zappy-cart-drawer-total-color,var(--text-light,#f9fafb))}.cart-drawer-footer .zappy-cart-discount-row{color:var(--primary-color,var(--accent,var(--primary,#059669)));font-weight:500}';var el=document.getElementById(id);if(el){el.textContent=css;}else{var s=document.createElement('style');s.id=id;s.textContent=css;(document.head||document.documentElement).appendChild(s);}function sync(){var f=document.querySelector('.cart-drawer-footer');var total=document.querySelector('.cart-drawer-footer .cart-drawer-total');if(!f||!total)return;try{var c=getComputedStyle(total).color;if(c)f.style.setProperty('--zappy-cart-drawer-total-color',c);}catch(e){}}sync();document.addEventListener('DOMContentLoaded',sync);window.addEventListener('load',sync);setTimeout(sync,50);setTimeout(sync,500);})();
 
 
 /* ZAPPY_CHECKOUT_BUTTON_CONTRAST_RUNTIME_V1 */
