@@ -449,6 +449,7 @@
 
 <div class="zappy-announcement-bar">
       <span class="zappy-announcement-message active">קוד קופון לקהילת קרן אור הזינו אעת הקופון &quot;KERENOR&quot;</span>
+      <span class="zappy-announcement-message">קוד קופון לקהילת קרן אור הזינו אעת הקופון &quot;KERENOR&quot;</span>
     </div>
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
 
@@ -499,6 +500,9 @@
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
+  
+
+    
   
 
     
@@ -1356,6 +1360,17 @@
     <div data-integration="accessibility:toolbar"></div>
 
 
+<script>
+(function() {
+  var messages = document.querySelectorAll('.zappy-announcement-message');
+  if (messages.length <= 1) return;
+  var current = 0;
+  setInterval(function() {
+    messages[current].classList.remove('active');
+    current = (current + 1) % messages.length;
+    messages[current].classList.add('active');
+  }, 4000);
+})();</script>
 
     <script src="/script.js"></script>
 
