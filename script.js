@@ -1395,6 +1395,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -17576,6 +17578,8 @@ function fixContrast(){
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
 
 /* ZAPPY_CART_BUNDLE_DISCOUNT_V1 — productId + fetchQuantityBundles patch */
+/* ZAPPY_CART_BUNDLE_SUMMARY_COLOR_V1 */
+;(function(){if(document.getElementById('zappy-cart-bundle-summary-color-css'))return;var s=document.createElement('style');s.id='zappy-cart-bundle-summary-color-css';s.textContent='.cart-drawer-footer{color:var(--text-color,var(--text,#1f2937))}.cart-drawer-footer .zappy-cart-summary-row{display:flex;justify-content:space-between;align-items:center;font-size:.95rem;margin-bottom:8px;color:inherit}.cart-drawer-footer .zappy-cart-discount-row{color:var(--primary-color,var(--accent,var(--primary,#059669)));font-weight:500}';(document.head||document.documentElement).appendChild(s);})();
 
 
 /* ZAPPY_CHECKOUT_BUTTON_CONTRAST_RUNTIME_V1 */
